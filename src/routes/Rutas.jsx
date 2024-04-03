@@ -10,8 +10,8 @@ function Rutas() {
             <UsarContexto>
                 <Layout>
                     <Routes>
-                        <Route path="/" element={<Home />}></Route>
-                        <Route path="/mis_productos" element={<MisProductos />}></Route>
+                        <Route path="/SummerHack-P3/" element={<Home />}></Route>
+                        <Route path="/SummerHack-P3/mis_productos" element={<MisProductos />}></Route>
                     </Routes>
                 </Layout>
             </UsarContexto>

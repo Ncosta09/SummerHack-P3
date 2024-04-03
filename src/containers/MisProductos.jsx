@@ -25,7 +25,7 @@ function MisProductos() {
                     <div className="name-products"> </div>
 
                     <div className="logout-button">
-                        <Link to={"/"}> <button>Vovler</button> </Link>
+                        <Link to={"/SummerHack-P3/"}> <button>Vovler</button> </Link>
                     </div>
                 </div>
 

@@ -36,7 +36,7 @@ function Logueado(props) {
 
                     <div className="name-products">
                         <h3>Mis productos</h3>
-                        <Link to={"/mis_productos"} >Productos</Link>
+                        <Link to={"/SummerHack-P3/mis_productos"} >Productos</Link>
                     </div>
 
                     <div className="logout-button">
