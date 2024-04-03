@@ -4,6 +4,7 @@
     max-height: 150px;
     border: 2px solid black;
     border-radius: 8px;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -29,4 +30,41 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
+}
+
+.product-description p{
+    margin: 0px;
+}
+
+.product-name{
+    font-weight: bold;
+}
+
+.product-description-misProductos{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.comprar-button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.comprar-button button {
+    width: 100px;
+    height: 25px;
+    background-color: #f0fbff;
+    border: 1.5px solid #2e94b9;
+    border-radius: 8px;
+}
+
+.comprar-button button:hover {
+    box-shadow: 0 0 8px rgba(46, 148, 185, 0.5);
 }

@@ -34,9 +34,19 @@ function MisProductos() {
                     {
                         productosComprados?.estado && productos.map((producto) => (
                             producto.nombre === productosComprados?.nombre ? (
-                                <div key={producto.nombre}>
-                                    {producto.nombre}
-                                    {producto.precio}
+                                <div className="all-space-product">
+                                    <div className="product-img">
+                                        <img src={producto?.img} alt="lata de coca cola" />
+                                    </div>
+        
+                                    <div className="product-description-misProductos">
+                                        <div>
+                                            <p className="product-name">{producto?.nombre}</p>
+                                        </div>
+                                        <div>
+                                            <p>${producto?.precio}</p>
+                                        </div>
+                                    </div>
                                 </div>
                             ) : null
                         ))
