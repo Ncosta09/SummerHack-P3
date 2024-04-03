@@ -67,6 +67,7 @@ body{
     background-color: white;
     border: 1.5px solid #2e94b9;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .logout-button button:active {

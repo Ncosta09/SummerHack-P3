@@ -58,6 +58,7 @@
     background-color: white;
     border: 1.5px solid #2e94b9;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .log-button button:active {
@@ -74,4 +75,5 @@
     padding: 0px;
     font-size: 14px;
     color: #2e94b9;
+    cursor: pointer;
 }

@@ -63,6 +63,7 @@
     background-color: #f0fbff;
     border: 1.5px solid #2e94b9;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .comprar-button button:hover {
